@@ -1,31 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
 img {
     display: block;
     max-width: 100%;
   }
 
   .gallery {
-    max-width: 1158px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
-    padding: 24px 15px;
     list-style: none;
     user-select: none;
     overflow: hidden;
     background: #fff;
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    padding-right: 0;
+
 
   }
   .gallery-item {
     max-width: 1128px;
+    list-style: none;
   }
   
   .gallery-image {
     width: 360px;
     transition: transform 0.3s ease;
+  height: auto;
+  display: block;
+
   }
   
   .gallery-image:hover {
