@@ -1,0 +1,39 @@
+img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .gallery {
+    max-width: 1158px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 15px;
+    list-style: none;
+    user-select: none;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+
+  }
+  .gallery-item {
+    max-width: 1128px;
+  }
+  
+  .gallery-image {
+    width: 360px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-image:hover {
+      transform: scale(1.04);
+      cursor: pointer, #4E75FF;
+      
+  }
+
+  .modalImage {
+    background-color: rgba(46, 47, 66, 0.8);
+  }
